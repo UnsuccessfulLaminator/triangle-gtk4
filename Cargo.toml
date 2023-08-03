@@ -1,0 +1,11 @@
+[package]
+name = "triangle-gtk4"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+epoxy = "0.1.0"
+gl = "0.14.0"
+gtk = { version = "0.6.6", package = "gtk4", features = ["v4_10"] }
+shared_library = "0.1.9"
+three-d = "0.15.0"
